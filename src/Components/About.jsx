@@ -10,7 +10,7 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -24,7 +24,7 @@ const imageAltText = "beach";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm an iOS Developer currently pursuing my BTech in Computer Science and Engineering at Manipal University Jaipur. I enjoy creating iOS Applications and creating music."
+  "I'm an iOS Developer currently pursuing my BTech in Computer Science and Engineering at Manipal University Jaipur. I enjoy creating iOS Applications and creating music.";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
@@ -44,7 +44,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "In the realm of coding and robotics, I am constantly seeking for new opportunities to learn and develop, and I am eager to discover what the future holds."
+  "In the realm of coding and robotics, I am constantly seeking for new opportunities to learn and develop, and I am eager to discover what the future holds.";
 const About = () => {
   return (
     <section className="light" id="about">
