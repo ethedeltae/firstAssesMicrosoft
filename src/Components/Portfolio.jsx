@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/mountains-1761292_1280.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "mountains";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Facial Recognition Software",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "We developed a Facial Recognition Software using Python(a programming language) that uses machine learning algorithms to analyze and compare images of human faces in order to identify individuals. ",
+    url: "https://drive.google.com/drive/folders/1sMoi_tqZzQlw6dn0THkhaG4OwZpTZnPp",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Automatic Floor Cleaner",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "We designed a floor cleaner that included a vacuum, a water dispenser, and a mop that could be operated by the handle attached to it.",
+    url: "https://drive.google.com/file/d/1VkvwGhvoKsS5ZEPWLsJPPxcAv5yjBh6C/view?usp=sharing",
   },
   {
-    title: "My Resume Site",
+    title: "Destini - A GIAS based application",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "iOS application based on the Graphical Password Authentication System using Swift.",
+    url: "https://www.linkedin.com/posts/abhilekh-borah-aa758a15a_manipaluniversity-hackathon-ios-activity-7023984464024252417-FmZl?utm_source=share&utm_medium=member_desktop",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "3D Printed Modern Plough",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "We created a 3D plough for the Atal Innovation Mission's 3D printing competition. This is a contemporary plough with capabilities to alter farming practises.",
+    url: "https://youtu.be/AXNpi3WiN2k",
   },
 ];
 
