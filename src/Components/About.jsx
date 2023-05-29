@@ -10,22 +10,21 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/mosaic.svg";
+import image from "../images/beach-832346_1280.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "beach";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
-
+  "I'm an iOS Developer currently pursuing my BTech in Computer Science and Engineering at Manipal University Jaipur. I enjoy creating iOS Applications and creating music.";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
@@ -33,10 +32,10 @@ const description =
 const skillsList = [
   "Web design",
   "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "iOS Development",
+  "Machine Learning",
+  "Music Production",
+  "IoT",
 ];
 
 /**
@@ -45,8 +44,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
-
+  "In the realm of coding and robotics, I am constantly seeking for new opportunities to learn and develop, and I am eager to discover what the future holds.";
 const About = () => {
   return (
     <section className="light" id="about">
